@@ -1,0 +1,41 @@
+Loading data...
+Preprocessing training text data... (this will take some time)
+Preprocessing testing text data...
+Generating word clouds...
+Qt: Session management error: Could not open network socket
+Saved word cloud for Business to plots/wordcloud_class_3.png
+Saved word cloud for Sci-Tech to plots/wordcloud_class_4.png
+Saved word cloud for Sports to plots/wordcloud_class_2.png
+Saved word cloud for World to plots/wordcloud_class_1.png
+Vectorizing text using TF-IDF...
+TF-IDF X_train shape: (120000, 5000)
+TF-IDF X_test shape: (7600, 5000)
+Building model (MLP Classifier)...
+Training model...
+Iteration 1, loss = 0.40668905
+Validation score: 0.905417
+Iteration 2, loss = 0.23400465
+Validation score: 0.907333
+Iteration 3, loss = 0.20672681
+Validation score: 0.905583
+Iteration 4, loss = 0.18421656
+Validation score: 0.904583
+Iteration 5, loss = 0.15967784
+Validation score: 0.904583
+Iteration 6, loss = 0.13367441
+Validation score: 0.904083
+Iteration 7, loss = 0.10623569
+Validation score: 0.901167
+Iteration 8, loss = 0.07881902
+Validation score: 0.901250
+Iteration 9, loss = 0.05569273
+Validation score: 0.897417
+Iteration 10, loss = 0.03943907
+Validation score: 0.896250
+/home/mostafa/miniconda3/envs/category_classification/lib/python3.12/site-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (10) reached and the optimization hasn't converged yet.
+  warnings.warn(
+Training Accuracy: 0.9327
+Validation Accuracy: 0.9067
+Model saved to models/ag_news_model.pkl
+Generating training plots...
+Saved training loss plot to plots/
